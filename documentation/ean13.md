@@ -10,6 +10,7 @@ modules:
 Available font variants:
 
   * **Libre Barcode EAN13 Text** has text below.
+  * **Libre Barcode EAN13** bars only: no text, all bars (including guards and add-ons) have the same height and stand on the baseline.
 
 The EAN 13 font implements all of the EAN/UPC symbology in [GS1 General Specifications](https://www.gs1.org/standards/barcodes-epcrfid-id-keys/gs1-general-specifications) (version 20),
 [get the PDF](https://www.gs1.org/sites/default/files/docs/barcodes/GS1_General_Specifications.pdf) start at **5.2 Linear barcodes - EAN/UPC symbology specifications**.

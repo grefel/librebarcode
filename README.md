@@ -22,6 +22,7 @@ Fonts to write barcodes.
 
 ## EAN 13 (EAN 8, UPC-A, UPC-E, 2- and 5-digit Add-Ons)
 
+* Libre Barcode EAN13
 * Libre Barcode EAN13 Text
 
 [EAN 13 manual](https://graphicore.github.io/librebarcode/documentation/ean13)

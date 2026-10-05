@@ -235,4 +235,8 @@ for FILE in ${FILES[@]}; do
     # don't print "+ set +x;"
     { set +x; } 2>/dev/null
 done
+if isTarget EAN13TEXT; then
+    echo "derive EAN13 (bars only) from EAN13 Text ...";
+    python app/bin/stripEAN13Text.py fonts/LibreBarcodeEAN13Text-Regular.ttf fonts/LibreBarcodeEAN13-Regular.ttf
+fi
 echo "DONE!"
